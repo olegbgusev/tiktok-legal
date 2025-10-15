@@ -22,12 +22,13 @@
 </head>
 <body>
   <script>
-const params = new URLSearchParams(location.search);
-const code = params.get("code");
-if (code) {
-  document.write("<h3>Authorization code:</h3><p>" + code + "</p>");
-}
-</script>
+    const params = new URLSearchParams(location.search);
+    const code = params.get("code");
+    if (code) {
+      document.write("<h3>Authorization code:</h3><p>" + code + "</p>");
+    }
+  </script>
+
   <div class="wrap">
     <div class="card">
       <img src="./logo.png" alt="App Logo" class="logo">
@@ -50,12 +51,5 @@ if (code) {
       <footer>© 2025 — Oleg Gusev</footer>
     </div>
   </div>
-  <script>
-const params = new URLSearchParams(location.search);
-const code = params.get("code");
-if (code) {
-  document.body.innerHTML = "<h3>Authorization code:</h3><p>" + code + "</p>";
-}
-</script>
 </body>
 </html>
